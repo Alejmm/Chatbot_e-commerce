@@ -1,4 +1,4 @@
-![image-5](https://github.com/user-attachments/assets/b55593f7-fb77-4ac8-bb2f-2b261cd621e6)# 📘 Documentación Externa del Proyecto: Chatbot E-commerce con ML
+Chatbot E-commerce con ML
 
 ## 🧱 Estructura del Proyecto
 
