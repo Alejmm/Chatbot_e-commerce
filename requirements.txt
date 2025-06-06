@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+scikit-learn
+tensorflow
+pillow
+python-multipart
+oracledb
