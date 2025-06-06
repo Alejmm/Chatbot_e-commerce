@@ -1,4 +1,4 @@
-# 📘 Documentación Externa del Proyecto: Chatbot E-commerce con ML
+![image-5](https://github.com/user-attachments/assets/b55593f7-fb77-4ac8-bb2f-2b261cd621e6)# 📘 Documentación Externa del Proyecto: Chatbot E-commerce con ML
 
 ## 🧱 Estructura del Proyecto
 
@@ -70,31 +70,32 @@ Se programó `prediccion_periodica.py` como una tarea automática diaria en Wind
 ### Bot de Telegram:
 
 - Inicio de conversación con saludo, y consulta por nombre: Su funcionamiento consiste que al momento de consultar un producto lo buscará y mostrará si fue satisfactorio, brindando así 4 sugerencias más de productos que puedan interesar al cliente.  
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/7c09daf1-f2ae-4384-a9ce-2f94cac971fe)
 
 - Consulta anterior y consulta por imagen: Al haber  ya realizado una consulta pregunta y brinda la opción a seguir consultando, al realizar un envió de imagen analiza la misma, obtiene una descripción y muestra la coincidencia encontrada, brindando así 4 sugerencias más de productos que puedan interesar al cliente. 
-![alt text](image-1.png)
-![alt text](image-2.png)
+![image-1](https://github.com/user-attachments/assets/bc5112dd-b314-4de4-b49d-82a4d68f87c6)
+![image-2](https://github.com/user-attachments/assets/7a2e7d74-c17e-44ab-b0e6-952e1ef8697c)
+
 
 - Uso de comando /ayuda: Al utilizar el comando ayuda brindara soporte sobre el uso del ChatBot, utilizando el comando de ayuda /destacados, brindando 5 productos destacados. 
-![alt text](image-3.png)
+![image-3](https://github.com/user-attachments/assets/d3115b9b-b043-4c46-8aba-21b49aee6d53)
 
 - Uso de categorías: El comando /ayuda también brinda las categorías disponbibles del sistema, al escribir alguna de estas categorías mostrará los productos de la categoría seleccionada.
-![alt text](image-4.png)
+![image-4](https://github.com/user-attachments/assets/f51d189a-b9a3-48b3-8f9f-c23eb9948987)
 
 ### Dashboard Streamlit:
 
   1. **Vista general del dashboard:**
- ![alt text](image-5.png)
+ ![image-5](https://github.com/user-attachments/assets/de43cb96-7fb6-4d5b-bc5f-24712d8ab77d)
   
   2. **Comparativa de precios por categoría:**
- ![alt text](image-6.png)
+ ![image-6](https://github.com/user-attachments/assets/f4e03f99-9c70-4353-b213-7780aa7e9a60)
   
   3. **Edición de precio sugerido:**
-![alt text](image-7.png)
+![image-7](https://github.com/user-attachments/assets/f148c6ad-dbc9-42f1-aaf7-3c06ddc4a0bc)
 
  4. **Comparación de Precios Actuales vs Predicciones:**
-![alt text](image-8.png)
+![image-8](https://github.com/user-attachments/assets/9afef3f3-e826-43a8-a432-29ff05521cb1)
 
 
 ## 🧠 Consideraciones Finales
