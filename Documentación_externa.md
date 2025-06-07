@@ -38,13 +38,17 @@ Repositorio público del proyecto: [https://github.com/Alejmm/Chatbot_e-commerce
 - Se utilizó un canal dedicado en Slack (`#equipo-ecommerce`) para discusión técnica y coordinación diaria.
 
 ### Trello
-- Se manejaron tableros en Trello con fases: `Backlog`, `En proceso`, `Validación`, `Finalizado`.
-- URL (ejemplo ficticio): [https://trello.com/b/equipoecommerce](https://trello.com/b/equipoecommerce)
+- Se manejaron tableros en Trello con fases: `Tablero`, `Lista de Tareas`, `En proceso`, `Finalizado`.
+- URL https://trello.com/invite/b/68438eee66b5583755ee50d1/ATTI975105ddf857d188c74f112f47cf137051A309DA/tareas-chatbot-ml
+- 
 
 ### Capturas de uso de herramientas:
 
-![Slack en uso](captures/slack.png)
-![Trello tareas](captures/trello.png)
+Slack: 
+![image](https://github.com/user-attachments/assets/30907161-a911-492f-844b-fffdb488f332)
+
+Trello: 
+![image](https://github.com/user-attachments/assets/9f6f2599-f63e-41f8-9d6b-a0c80eab7280)
 
 
 ## 🛠️ Funcionalidades Destacadas
