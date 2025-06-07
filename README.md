@@ -50,38 +50,38 @@ cd ecommerce-chatbot-ml
 ### 2. Instalar dependencias
 Uso de archivo requirements.txt
 
-# Telegram bot
+### Telegram bot
 python-telegram-bot==20.3
 
-# Comunicación HTTP
+### Comunicación HTTP
 aiohttp==3.9.3
 httpx==0.27.0
 requests==2.31.0
 
-# Machine Learning y Preprocesamiento
+### Machine Learning y Preprocesamiento
 scikit-learn==1.4.2
 pandas==2.2.2
 numpy==1.26.4
 joblib==1.4.2
 
-# Procesamiento de lenguaje natural
+### Procesamiento de lenguaje natural
 spacy==3.7.4
 torch==2.3.0
 transformers==4.40.1
 sentence-transformers==2.7.0
 
-# Oracle DB
+### Oracle DB
 cx_Oracle==8.3.0
 
-# Utilidades
+### Utilidades
 tqdm==4.66.4
 Pillow==10.3.0
 
-# Para CLIP
+### Para CLIP
 ftfy==6.1.3
 regex==2023.12.25
 
-##Comando para instalar todas las dependencias 
+### Comando para instalar todas las dependencias 
 pip install -r requirements.txt
 
 ### 3. Configurar variables de entorno `.env`
