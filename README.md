@@ -28,6 +28,49 @@ Este proyecto implementa un chatbot para Telegram que permite a los usuarios con
                              +------------------+
 ```
 
+El sistema está diseñado bajo una **arquitectura modular en capas**, basada en los principios de **arquitectura desacoplada** en donde cada componente tiene un rol específico, permitiendo facilidad de mantenimiento y escalabilidad.
+
+### 🔧 Tipo de Arquitectura
+
+- **Cliente-Servidor**
+- **Modularizada y desacoplada**
+- **Basada en servicios (Telegram API, Hugging Face, Oracle DB)**
+
+### 🧱 Componentes Principales
+
+| Componente                        | Descripción |
+|----------------------------------|-------------|
+| **Telegram Bot (`telegram_bot.py`)** | Recibe texto o imágenes desde el cliente, procesa la entrada, obtiene productos desde la base de datos y responde vía Telegram. |
+| **Modelo CLIP (`clip_utils.py`)**     | Convierte imágenes en vectores y permite comparar similitud con imágenes del catálogo. |
+| **Descripción BLIP (`replicate_utils.py`)** | Usa Hugging Face BLIP para generar descripciones automáticas de imágenes. |
+| **Predicción de Precios (`prediccion_periodica.py`)** | Entrena un modelo de regresión con datos históricos y almacena predicciones en Oracle. |
+| **Dashboard Administrativo (`admin_dashboard.py`)** | UI creada con Streamlit que permite visualizar predicciones y ajustar precios. |
+| **Base de Datos Oracle**        | Almacena productos, imágenes, categorías, historial de precios y predicciones. |
+
+---
+
+### 🔄 Flujo General del Sistema
+
+```text
+Usuario (Telegram)
+    ↓ (Texto / Imagen)
+[ Telegram Bot ]
+    ├──> Si texto: búsqueda en Oracle
+    ├──> Si imagen: 
+    │     ├──> BLIP (Descripción automática)
+    │     └──> CLIP (Similitud visual con el catálogo)
+    ↓
+Respuesta con producto(s), precio y sugerencias
+
+[ Script de predicción ]
+    ├──> Lee historial desde Oracle
+    ├──> Entrena modelo (scikit-learn)
+    └──> Guarda predicción en tabla `prediccion_precio`
+
+[ UI Administrador (Streamlit) ]
+    ├──> Consulta precios actuales y predichos
+    └──> Permite actualizar precio final de los productos
+
 ## 🛠️ Tecnologías Utilizadas
 - Python 3.11+
 - Telegram Bot API
