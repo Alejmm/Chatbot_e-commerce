@@ -1,5 +1,5 @@
 # 🤖 E-Commerce Chatbot Machine Learning
-##Documentación Interna
+## Documentación Interna
 
 ## 📌 Descripción General
 Este proyecto implementa un chatbot para Telegram que permite a los usuarios consultar productos mediante texto o imágenes, obteniendo:
